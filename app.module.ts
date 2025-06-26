@@ -7,7 +7,6 @@ import { GoogleSheetsService } from './utils/google-sheets.service';
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      envFilePath: '.env.local', // Load environment variables from this file
     }),
   ],
   controllers: [AppController],
